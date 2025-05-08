@@ -1,0 +1,43 @@
+.conditions-container {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.conditions-heading {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.conditions-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.conditions-list li {
+  font-size: 1.5rem;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  border: 2px solid #002E5D;
+  border-radius: 10px;
+  background-color: #e9f3fa;
+  color: #002E5D;
+  max-width: 700px;
+  transition: transform 0.2s;
+}
+
+.conditions-list li:hover {
+  transform: scale(1.03);
+  background-color: #d0e9f7;
+}
+
+/* Dark mode support */
+body.dark-mode .conditions-list li {
+  background-color: #222;
+  color: #00AEEF;
+  border-color: #00AEEF;
+}
+
+body.dark-mode .conditions-list li:hover {
+  background-color: #333;
+}
