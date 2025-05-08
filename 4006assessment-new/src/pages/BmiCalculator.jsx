@@ -33,6 +33,7 @@ const BmiCalculator = () => {
                   <Form.Label>Weight (kg)</Form.Label>
                   <Form.Control
                     type="number"
+                    min="1"
                     value={weight}
                     onChange={(e) => setWeight(e.target.value)}
                     placeholder="Enter your weight"
@@ -43,6 +44,7 @@ const BmiCalculator = () => {
                   <Form.Label>Height (cm)</Form.Label>
                   <Form.Control
                     type="number"
+                    min="1"
                     value={height}
                     onChange={(e) => setHeight(e.target.value)}
                     placeholder="Enter your height"
