@@ -1,10 +1,140 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #121212;
-  color: #f8f9fa;
+body.light-mode {
+  color:#f8f9fa;
 }
 
-input, button {
-  margin: 5px;
+body.dark-mode {
+  color: #00AEEF;
 }
+
+.navbar-light .navbar-brand {
+  color: #002E5D !important;
+}
+
+.navbar-light .nav-link {
+  color: #00AEEF !important; 
+}
+
+.navbar-light .nav-link:hover {
+  color: #008ec9 !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+  color: #f8f9fa !important;
+}
+
+.btn-outline-secondary {
+  color: #002E5D;
+  border-color: #002E5D;
+}
+
+.btn-outline-secondary:hover {
+  color: #FFFFFF;
+}
+
+.home-heading {
+  color: #f8f9fa !important;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home-subtext {
+  color: #f8f9fa !important;
+  text-align: center;
+}
+
+body.dark-mode {
+  background-color: #121212 !important;
+}
+
+body.light-mode {
+  background-color: #3580BB !important;
+}
+
+.home-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 1.5rem;
+  line-height: 1.7;
+}
+
+.home-content ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-content li {
+  margin: 1rem 0;
+  font-size: 1.05rem;
+}
+
+.home-container {
+  padding: 2rem;
+}
+
+.home-container {
+  padding: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  opacity: 0.9;
+  position: relative;
+}
+
+.home-container::before {
+  content: "";
+  background-image: inherit;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.08;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+.home-heading {
+  color: #002E5D; 
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home-subtext {
+  color: #002E5D;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.home-content {
+  max-width: 900px;
+  margin: 3rem auto;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 2;
+  padding: 2rem;
+}
+
+.home-content ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.home-content li {
+  margin: 1.2rem 0;
+  font-size: 1.2rem;
+}
+
